@@ -53,7 +53,7 @@ mySprite = sprites.create(img`
     `, SpriteKind.Player)
 let ROWS = 10
 let COLS = 10
-PATH_WIDTH = 2
+PATH_WIDTH = 1
 myMaze = mazes.buildMaze(ROWS, COLS, MazeType.None)
 myMaze.setSolutionCells(
 0,
